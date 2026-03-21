@@ -20,7 +20,7 @@ This shows that Git does not delete old commits. It creates new ones for every c
 
 I created a nested list and copied it using `list()`.
 After changing the copied list, the original list also changed.
-This happens because `list()` makes a shallow copy, so inner lists are shared.
+This happens because `list()` makes a partial copy, so inner lists are shared.
 
 # Task 4: Commit Hash Change
 
@@ -39,6 +39,6 @@ The hash changed, which shows that even a small change creates a new commit.
 ## Conclusion
 From this assignment, I understood:
 - Difference between mutable and immutable data types
-- Concept of shallow copy
+- Concept of partial copy
 - Git stores all commits permanently
 - Commit hash changes if anything in commit changes
